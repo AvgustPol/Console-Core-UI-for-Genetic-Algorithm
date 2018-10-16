@@ -1,4 +1,5 @@
-﻿using Loader;
+﻿using GeneticAlgorithm;
+using Loader;
 
 namespace ConsoleCoreUI
 {
@@ -6,9 +7,12 @@ namespace ConsoleCoreUI
     {
         private static void Main(string[] args)
         {
-            FileLoader loader = new FileLoader();
+            DataLoader loader = new DataLoader();
 
-            var res = loader.GetDataFromFileAsync().Result;
+            var res = loader.GetCreatedDataContainerFromFileAsync().Result;
+
+            MyGeneticAlgorithm geneticAlgorithm = new MyGeneticAlgorithm();
+            geneticAlgorithm.StartGeneticAlgorithm();
         }
     }
 }
