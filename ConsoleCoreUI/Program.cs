@@ -1,5 +1,4 @@
 ﻿using GeneticAlgorithm;
-using System;
 
 namespace ConsoleCoreUI
 {
@@ -7,10 +6,6 @@ namespace ConsoleCoreUI
     {
         private static void Main(string[] args)
         {
-            Console.Write($"Best: { 1.91230810361457E-05,40 }");
-            Console.Write($"Best: { 13.91230810361457E-05,40 }");
-            Console.WriteLine($"Best: { 22.91230810361457E-05,40 }");
-
             MyGeneticAlgorithm geneticAlgorithm = new MyGeneticAlgorithm();
             geneticAlgorithm.StartGeneticAlgorithm();
 
