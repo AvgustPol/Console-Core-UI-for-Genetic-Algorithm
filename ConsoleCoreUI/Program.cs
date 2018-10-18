@@ -6,10 +6,6 @@ namespace ConsoleCoreUI
     {
         private static void Main(string[] args)
         {
-            //DataLoader loader = new DataLoader();
-
-            //var res = loader.GetCreatedDataContainerFromFileAsync().Result;
-
             MyGeneticAlgorithm geneticAlgorithm = new MyGeneticAlgorithm();
             geneticAlgorithm.StartGeneticAlgorithm();
 
