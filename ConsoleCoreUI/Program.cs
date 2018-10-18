@@ -24,7 +24,7 @@ namespace ConsoleCoreUI
             //    PermutationPlaces = new int[] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 }
             //};
 
-            //individual1.PMXoperator(individual2);
+            //individual1.CrossWithPMXoperator(individual2);
 
             #endregion PMX operator test
         }
