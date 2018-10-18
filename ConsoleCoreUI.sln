@@ -13,8 +13,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataModel", "..\DataModel\D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NQueensProblem", "..\..\..\..\Google drive\обучение\6 sem\Szt. Inż\Lab02 win forms\NQueensProblem\NQueensProblem\NQueensProblem.csproj", "{1EE4DC8F-344F-4300-81C3-35508202D539}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSVFileReadWrite", "..\..\..\..\Google drive\обучение\6 sem\Szt. Inż\Lab01 with github\ArtificialIntelligence_01\CSVFileReadWrite\CSVFileReadWrite\CSVFileReadWrite.csproj", "{EFAE059E-86DC-419B-BD58-43B649D7A047}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatisticsCounter", "..\StatisticsCounter\StatisticsCounter\StatisticsCounter.csproj", "{7609BA96-D6DD-457D-8419-3A1F70F88BEA}"
 EndProject
 Global
@@ -43,10 +41,6 @@ Global
 		{1EE4DC8F-344F-4300-81C3-35508202D539}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EE4DC8F-344F-4300-81C3-35508202D539}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EE4DC8F-344F-4300-81C3-35508202D539}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EFAE059E-86DC-419B-BD58-43B649D7A047}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EFAE059E-86DC-419B-BD58-43B649D7A047}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EFAE059E-86DC-419B-BD58-43B649D7A047}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EFAE059E-86DC-419B-BD58-43B649D7A047}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7609BA96-D6DD-457D-8419-3A1F70F88BEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7609BA96-D6DD-457D-8419-3A1F70F88BEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7609BA96-D6DD-457D-8419-3A1F70F88BEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
