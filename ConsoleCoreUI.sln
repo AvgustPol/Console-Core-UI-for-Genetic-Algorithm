@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loader", "..\Loader\Loader\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeneticAlgorithm", "..\GeneticAlgorithm\GeneticAlgorithm\GeneticAlgorithm.csproj", "{D6351ABB-6748-42E1-B961-84BA41C5D47E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataModel", "..\DataModel\DataModel\DataModel.csproj", "{6622D37E-3D0C-4779-A1E1-21AF1125BB3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GlobalData", "..\DataModel\DataModel\GlobalData.csproj", "{6622D37E-3D0C-4779-A1E1-21AF1125BB3F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatisticsCounter", "..\StatisticsCounter\StatisticsCounter\StatisticsCounter.csproj", "{7609BA96-D6DD-457D-8419-3A1F70F88BEA}"
 EndProject
