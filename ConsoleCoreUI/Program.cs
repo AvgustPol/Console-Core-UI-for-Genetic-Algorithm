@@ -50,10 +50,8 @@ namespace ConsoleCoreUI
 
             #endregion GetMutatation test
 
-            MyGeneticAlgorithm geneticAlgorithm = new MyGeneticAlgorithm();
-            geneticAlgorithm.StartGeneticAlgorithm();
-
-            geneticAlgorithm.StartTabuSearch();
+            GeneticAlgorithmCore geneticAlgorithmCore = new GeneticAlgorithmCore();
+            geneticAlgorithmCore.Explore();
         }
 
         //private static void ShowArray(int[] array, string name)
