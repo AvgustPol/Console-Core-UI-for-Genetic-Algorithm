@@ -52,6 +52,20 @@ namespace ConsoleCoreUI
 
             GeneticAlgorithmCore geneticAlgorithmCore = new GeneticAlgorithmCore();
             geneticAlgorithmCore.Explore();
+
+            // где могут быть проблемы:
+            //_exploringStopCondition
+            //_algoritmStopCondition
+
+            //RunAllAlgorithms()
+            //for (_generationsCounter = 1; _exploringStopCondition; _generationsCounter++)
+
+            //CalculateAllAlgorithmsAverage
+            //for (int i = 0; i < GlobalParameters.AlgorithmStopCondition; i++)
+
+            //и не только !
+
+            // напоминаю - просмотри TODO !!!
         }
 
         //private static void ShowArray(int[] array, string name)
