@@ -33,7 +33,7 @@ namespace ConsoleCoreUI
 
             #endregion PMX fixing test
 
-            #region GetMutatation test
+            #region GetMutation test
 
             //int[] test = new int[GeneticAlgorithmParameters.Dimension];
             //for (int j = 0; j < GeneticAlgorithmParameters.Dimension; j++)
@@ -43,12 +43,12 @@ namespace ConsoleCoreUI
 
             //Individual tmpIndividual = new Individual()
             //{
-            //    PermutationPlaces = test
+            //    Places = test
             //};
 
-            //var res = tmpIndividual.GetMutatation();
+            //var res = tmpIndividual.GetMutation();
 
-            #endregion GetMutatation test
+            #endregion GetMutation test
 
             GeneticAlgorithmCore geneticAlgorithmCore = new GeneticAlgorithmCore();
             geneticAlgorithmCore.Explore();
