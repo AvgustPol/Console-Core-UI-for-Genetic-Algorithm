@@ -51,7 +51,16 @@ namespace ConsoleCoreUI
             #endregion GetMutation test
 
             GeneticAlgorithmCore geneticAlgorithmCore = new GeneticAlgorithmCore();
+
             geneticAlgorithmCore.Explore();
+
+            // При подсчете статистик я игнорирую osobnikow z ujemnym fitnessem
+            // но оставляю их в популяции, чтобы дать шанс эволюции
+            //
+            //
+            // идея : подсчет кол-ва dodatnich i ujemnych osobnikow
+            //
+            //
 
             // где могут быть проблемы:
             //_exploringStopCondition
