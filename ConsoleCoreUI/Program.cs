@@ -52,60 +52,10 @@ namespace ConsoleCoreUI
 
             GeneticAlgorithmCore geneticAlgorithmCore = new GeneticAlgorithmCore();
 
-            geneticAlgorithmCore.RunAllAlgorithms();
-
-            // При подсчете статистик я игнорирую osobnikow z ujemnym fitnessem
-            // но оставляю их в популяции, чтобы дать шанс эволюции
-            //
-            //
-            // идея : подсчет кол-ва dodatnich i ujemnych osobnikow
-            //
-            //
-
-            // где могут быть проблемы:
-            //_exploringStopCondition
-            //_algoritmStopCondition
-
-            //RunAllAlgorithms()
-            //for (_generationsCounter = 1; _exploringStopCondition; _generationsCounter++)
-
-            //CalculateAllAlgorithmsAverage
-            //for (int i = 0; i < GlobalParameters.AlgorithmStopCondition; i++)
-
-            //и не только !
+            //geneticAlgorithmCore.RunAllAlgorithms();
+            geneticAlgorithmCore.RunOnlySA();
 
             // напоминаю - просмотри TODO !!!
         }
-
-        //private static void ShowArray(int[] array, string name)
-        //{
-        //    string arr = "";
-        //    for (int i = 0; i < array.Length; i++)
-        //    {
-        //        arr += $"{array[i]} , ";
-        //    }
-        //    Console.WriteLine($"{name}: {arr} ");
-        //}
-
-        //private static bool IsBrocken(int[] array)
-        //{
-        //    for (int i = 0; i < array.Length; i++)
-        //    {
-        //        int counter = 0;
-        //        for (int j = 0; j < array.Length; j++)
-        //        {
-        //            if (array[j] == array[i])
-        //            {
-        //                counter++;
-        //                if (counter == 2)
-        //                {
-        //                    return true;
-        //                }
-        //            }
-        //        }
-        //    }
-
-        //    return false;
-        //}
     }
 }
