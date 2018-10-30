@@ -52,7 +52,7 @@ namespace ConsoleCoreUI
 
             GeneticAlgorithmCore geneticAlgorithmCore = new GeneticAlgorithmCore();
 
-            geneticAlgorithmCore.Explore();
+            geneticAlgorithmCore.RunAllAlgorithms();
 
             // При подсчете статистик я игнорирую osobnikow z ujemnym fitnessem
             // но оставляю их в популяции, чтобы дать шанс эволюции
