@@ -1,4 +1,8 @@
-﻿using GeneticAlgorithm;
+﻿using GeneticAlgorithmLogic;
+using GeneticAlgorithmLogic.Сommon;
+using System.Collections.Generic;
+using System.IO;
+using static GeneticAlgorithmLogic.Metaheuristics.Parameters.MetaheuristicParameters;
 
 namespace ConsoleCoreUI
 {
@@ -50,10 +54,61 @@ namespace ConsoleCoreUI
 
             #endregion GetMutation test
 
-            GeneticAlgorithmCore geneticAlgorithmCore = new GeneticAlgorithmCore();
+            #region Fitness test
 
-            //geneticAlgorithmCore.RunAllAlgorithms();
-            geneticAlgorithmCore.RunOnlySA();
+            //int[] defaultArray = new int[GeneticAlgorithmParameters.Dimension];
+            //for (int i = 0; i < GeneticAlgorithmParameters.Dimension; i++)
+            //{
+            //    defaultArray[i] = i;
+            //}
+            //Individual individual = new Individual(defaultArray);
+
+            #endregion Fitness test
+
+            string timingData = @"D:\7 semestr\Metaheurystyki\Data\Result\timing.csv";
+
+            AlgorithmCore algorithmCore;
+
+            List<MetaheuristicType> metaheuristicTypes = new List<MetaheuristicType>()
+            {
+                MetaheuristicType.GA,
+                MetaheuristicType.SA,
+                MetaheuristicType.TS
+            };
+
+            if (File.Exists(timingData))
+            {
+                File.Delete(timingData);
+                File.AppendAllLines(timingData,
+                    new[]
+                    {
+                        $"Problem ," +
+                        $"Plik ," +
+                        $"Czas (ms) "
+                    });
+            }
+
+            foreach (string fileName in GlobalParameters.FileNames)
+            {
+                foreach (var type in metaheuristicTypes)
+                {
+                    var watch = System.Diagnostics.Stopwatch.StartNew();
+
+                    algorithmCore = new AlgorithmCore(type, fileName);
+                    algorithmCore.RunAnalyticForCurrentFile();
+
+                    watch.Stop();
+                    var elapsedMs = watch.ElapsedMilliseconds;
+
+                    File.AppendAllLines(timingData,
+                        new[]
+                        {
+                            $"{type}," +
+                            $"{fileName}," +
+                            $"{elapsedMs}"
+                        });
+                }
+            }
 
             // напоминаю - просмотри TODO !!!
         }

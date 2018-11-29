@@ -6,9 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\DataModel\DataModel\GlobalData.csproj" />
-    <ProjectReference Include="..\..\GeneticAlgorithm\GeneticAlgorithm\GeneticAlgorithm.csproj" />
-    <ProjectReference Include="..\..\Loader\Loader\Loader.csproj" />
+    <None Remove="Program.cs~RF2459b9.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\GeneticAlgorithm\GeneticAlgorithm\GeneticAlgorithmLogic.csproj" />
   </ItemGroup>
 
 </Project>

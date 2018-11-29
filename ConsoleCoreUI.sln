@@ -5,11 +5,7 @@ VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleCoreUI", "ConsoleCoreUI\ConsoleCoreUI.csproj", "{C2E2CE15-7DB8-47CC-9CA9-380502DA82AE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loader", "..\Loader\Loader\Loader.csproj", "{1C42923D-8BEE-4095-9676-E5C4DD32935E}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeneticAlgorithm", "..\GeneticAlgorithm\GeneticAlgorithm\GeneticAlgorithm.csproj", "{D6351ABB-6748-42E1-B961-84BA41C5D47E}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GlobalData", "..\DataModel\DataModel\GlobalData.csproj", "{6622D37E-3D0C-4779-A1E1-21AF1125BB3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeneticAlgorithmLogic", "..\GeneticAlgorithm\GeneticAlgorithm\GeneticAlgorithmLogic.csproj", "{D6351ABB-6748-42E1-B961-84BA41C5D47E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatisticsCounter", "..\StatisticsCounter\StatisticsCounter\StatisticsCounter.csproj", "{7609BA96-D6DD-457D-8419-3A1F70F88BEA}"
 EndProject
@@ -23,18 +19,10 @@ Global
 		{C2E2CE15-7DB8-47CC-9CA9-380502DA82AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2E2CE15-7DB8-47CC-9CA9-380502DA82AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2E2CE15-7DB8-47CC-9CA9-380502DA82AE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1C42923D-8BEE-4095-9676-E5C4DD32935E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1C42923D-8BEE-4095-9676-E5C4DD32935E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1C42923D-8BEE-4095-9676-E5C4DD32935E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1C42923D-8BEE-4095-9676-E5C4DD32935E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D6351ABB-6748-42E1-B961-84BA41C5D47E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D6351ABB-6748-42E1-B961-84BA41C5D47E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6351ABB-6748-42E1-B961-84BA41C5D47E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6351ABB-6748-42E1-B961-84BA41C5D47E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6622D37E-3D0C-4779-A1E1-21AF1125BB3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6622D37E-3D0C-4779-A1E1-21AF1125BB3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6622D37E-3D0C-4779-A1E1-21AF1125BB3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6622D37E-3D0C-4779-A1E1-21AF1125BB3F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7609BA96-D6DD-457D-8419-3A1F70F88BEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7609BA96-D6DD-457D-8419-3A1F70F88BEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7609BA96-D6DD-457D-8419-3A1F70F88BEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
